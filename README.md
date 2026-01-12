@@ -46,7 +46,9 @@ Let $x_{i,j}$ be the integer number of units of **Model $i$** assigned to **GPU 
 
 ### 2. Objective Function
 
-Minimize the total cost : $$\text{Minimize } Z = \sum_{i=1}^{3} \sum_{j=1}^{3} \text{Cost}_{i,j} \cdot x_{i,j}$$
+Minimize the total cost :
+
+$$\text{Minimize } Z = \sum_{i=1}^{3} \sum_{j=1}^{3} \text{Cost}_{i,j} \cdot x_{i,j}$$
 
 ### 3. Constraints
 
