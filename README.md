@@ -15,19 +15,19 @@ The project follows a modular "Data-Driven" engineering design, separating confi
 
 ```text
 GPU_Optimization/
-├── data/               # Input parameters
-│   ├── config.json     # Global metadata (Model/GPU names, T_factor)
-│   ├── costs.csv       # 3x3 Operational cost matrix
-│   ├── availability.csv# Hardware time limits
-│   └── demands.csv     # Model deployment targets
-├── src/                # Modular Source Code
+├── data/                 # Input parameters
+│   ├── config.json       # Global metadata (Model/GPU names, T_factor)
+│   ├── costs.csv         # 3x3 Operational cost matrix
+│   ├── availability.csv  # Hardware time limits
+│   └── demands.csv       # Model deployment targets
+├── src/                  # Modular Source Code
 │   ├── __pycache__/
-│   ├── optimizer.py    # PuLP Linear Programming logic
-│   └── visualizer.py   # Absolute-path reporting suite
-├── Plots/              # Generated Insights (Auto-created)
-├── main.py             # System Orchestrator
-├── requirements.txt    # Dependency manifest
-└── README.md           # Documentation
+│   ├── optimizer.py      # PuLP Linear Programming logic
+│   └── visualizer.py     # Absolute-path reporting suite
+├── Plots/                # Generated Insights (Auto-created)
+├── main.py               # System Orchestrator
+├── requirements.txt      # Dependency manifest
+└── README.md             # Documentation
 
 ```
 
@@ -39,7 +39,7 @@ The problem is modeled as follows:
 
 ### 1. Decision Variables
 
-Let $x_{i,j}$ be the integer number of units of **Model _$i$_ assigned to **GPU _$j$_, where:
+Let $x_{i,j}$ be the integer number of units of **Model $i$** assigned to **GPU $j$**, where:
 
 - $i \in \{\text{BERT, ResNet-50, LSTM}\}$
 - $j \in \{\text{A100, V100, T4}\}$
