@@ -1,6 +1,5 @@
 # 🚀 GPU Allocation Optimizer: Linear Programming Approach
 
-**ENSAM Casablanca | AI & Computer Science Engineering**
 
 ## 📝 Overview
 
