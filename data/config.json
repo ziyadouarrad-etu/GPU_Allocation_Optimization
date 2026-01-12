@@ -1,0 +1,5 @@
+{
+  "models": ["BERT", "ResNet-50", "LSTM"],
+  "gpus": ["A100", "V100", "T4"],
+  "T_factor": 15
+}

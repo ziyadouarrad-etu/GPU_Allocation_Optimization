@@ -1,0 +1,10 @@
+# Optimization Solver
+pulp
+
+# Data Manipulation
+pandas
+numpy
+
+# Visualization and Reporting
+matplotlib
+seaborn
