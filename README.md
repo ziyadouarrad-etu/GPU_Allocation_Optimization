@@ -1,7 +1,3 @@
-This **README.md** is designed to match the academic and professional standards of your **ENSAM Casablanca** engineering projects. It incorporates the "Scientific Rigor" style from your previous operations research and numerical analysis assignments, ensuring the mathematical formulation is front and center.
-
----
-
 # 🚀 GPU Allocation Optimizer: Linear Programming Approach
 
 **ENSAM Casablanca | AI & Computer Science Engineering**
