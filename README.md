@@ -21,7 +21,6 @@ GPU_Optimization/
 │   ├── availability.csv  # Hardware time limits
 │   └── demands.csv       # Model deployment targets
 ├── src/                  # Modular Source Code
-│   ├── __pycache__/
 │   ├── optimizer.py      # PuLP Linear Programming logic
 │   └── visualizer.py     # Absolute-path reporting suite
 ├── Plots/                # Generated Insights (Auto-created)
