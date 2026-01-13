@@ -67,13 +67,13 @@ $$\sum_{j=1}^{3} x_{i,j} = \text{Demand}_i, \quad \forall i$$
 
 Following the study by R. Raushan (2024) and MLPerf benchmarks, the execution time matrix is derived from a standardized reference unit.
 
-# 1. Workload Unit Definition
+### 1. Workload Unit Definition
 
 An "Order Unit" corresponds to a Fine-Tuning session of 10 epochs.
 
 - Baseline: Training ResNet-50 on an Nvidia T4 takes 15 hours ($1.5h/\text{epoch} \times 10$).
 
-# 2. Relative Speed Factors ($\alpha$)
+### 2. Relative Speed Factors ($\alpha$)
 
 Relative acceleration factors were derived from MLPerf and Dell EMC benchmarks.
 
