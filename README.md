@@ -1,4 +1,4 @@
-# 🚀 GPU Allocation Optimizer: Linear Programming Approach
+# 🚀 GPU Allocation Optimizer: Linear Programming
 
 
 ## 📝 Overview
